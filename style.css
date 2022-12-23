@@ -338,3 +338,15 @@ h1 {
       	text-shadow: 0 0 5px rgba(0,5px,5px,1);
     }
 } */
+
+
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited {
+    background-color: #6f6fed !important;
+    border-color: #20201f !important;
+}
+.btn-primary:hover{
+  background-color: #e01313 !important;
+}
