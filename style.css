@@ -1,7 +1,7 @@
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
   background-color: rgb(0, 0, 0);
-  
+
 
 }
 
@@ -167,7 +167,7 @@
   }
 }
 
-/* Hero Shiny text animation */
+/* Hero Shiny Text Animation */
 .text-animation {
   text-align: center;
   text-transform: uppercase;
@@ -201,18 +201,19 @@
   }
 }
 
-#res{
+#res {
   color: white;
 }
 
 
-/* Resume and skills stars animation */
+/* Resume Background Stars Animation */
 #resume {
 
   background-color: black;
   background-image: url("./stardust.png");
   animation: glows 30s linear infinite;
-  padding-bottom: 2.5em;;
+  padding-bottom: 2.5em;
+  ;
 }
 
 @keyframes glows {
@@ -225,8 +226,6 @@
     background-position: 798px -798px;
   }
 }
-
-
 
 
 
@@ -264,17 +263,19 @@ h1 {
   margin-top: 4rem;
   padding-top: 4rem;
 } */
+
+
 #contact {
   padding-bottom: 4rem;
 }
 
-/* about section image css */
+/* about section Image CSS */
 .imageAboutPage {
   width: 100%;
   padding-bottom: 4em;
 }
 
-/* services section css */
+/* Resume Section CSS */
 .servicesText.card {
   height: 280px;
   cursor: pointer;
@@ -296,6 +297,26 @@ h1 {
 
 .servicesText:hover {
   border: 1px solid rgb(111, 111, 237);
+}
+
+/* Resume Section Button Styling */
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #6f6fed !important;
+  border-color: #20201f !important;
+}
+
+.btn-primary:hover {
+  background-color: #e01313 !important;
+}
+
+
+
+/* Portfolio Section Styling */
+#skills {
+  padding-top: 5em;
+
 }
 
 /* social media icons styling */
@@ -338,15 +359,3 @@ h1 {
       	text-shadow: 0 0 5px rgba(0,5px,5px,1);
     }
 } */
-
-
-
-.btn-primary,
-.btn-primary:active,
-.btn-primary:visited {
-    background-color: #6f6fed !important;
-    border-color: #20201f !important;
-}
-.btn-primary:hover{
-  background-color: #e01313 !important;
-}
