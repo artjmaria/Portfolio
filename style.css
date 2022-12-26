@@ -259,15 +259,13 @@ h1 {
 }
 
 /* spacing on all sections */
-/* #about, #services, #portfolio, #contact {
-  margin-top: 4rem;
-  padding-top: 4rem;
-} */
-
-
-#contact {
-  padding-bottom: 4rem;
+#about, #resume, #skills, #contact {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
+
+
+
 
 /* about section Image CSS */
 .imageAboutPage {
