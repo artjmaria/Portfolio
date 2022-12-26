@@ -1,4 +1,4 @@
-/* display background color black on navbar scroll */
+/* navbar scroll */
 .navbarScroll.navbarDark {
   background-color: rgb(0, 0, 0);
 
@@ -7,8 +7,9 @@
 .nav-link, .dropdown-item {
   color: rgb(111, 111, 237) !important;
 }
+
 .nav-link:hover, .dropdown-item:hover {
-  color: #e01313  !important;
+  color: #e01313 !important;
 }
 
 /* hero background image */
@@ -235,7 +236,7 @@
 
 
 
-/* Demo */
+/* Extra styles */
 body {
   font-size: 3.5em
 }
@@ -321,18 +322,17 @@ h1 {
 
 .card-img-top:hover {
   opacity: 0.5;
-  }
+}
 
-  .card:hover{
-    transform: scale(1.05);
- box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
 }
 
 .card-img-top:hover {
   border: 4px solid #d10b0b !important;
-  border: 1px solid;
   padding: 10px;
-  box-shadow: 5px 10px rgb(111, 111, 237);
+  box-shadow: 7px 10px rgb(165, 92, 243);
 }
 
 #skills {
@@ -355,10 +355,10 @@ h1 {
 
 /* Contact me section map styling */
 #embedmap-canvas img {
-    max-width: none !important;
-    background: none !important;
-    font-size: inherit;
-    font-weight: inherit;
+  max-width: none !important;
+  background: none !important;
+  font-size: inherit;
+  font-weight: inherit;
 }
 
 
@@ -369,7 +369,7 @@ h1 {
 }
 
 .fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover, .fa-linkedin:hover, .fa-twitch:hover {
-  color:#aa9ae9 ;
+  color: #aa9ae9;
 }
 
 .fa {
@@ -382,10 +382,12 @@ input[type=text] {
   border: 2px solid red;
   border-radius: 4px;
 }
+
 input[type=email] {
   border: 2px solid red;
   border-radius: 4px;
 }
+
 textarea[name=text] {
   border: 2px solid red;
   border-radius: 4px;
@@ -395,8 +397,3 @@ textarea[name=text] {
   background-color: #000000;
   text-align: center;
 }
-
-
-
-
-
