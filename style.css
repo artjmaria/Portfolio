@@ -2,7 +2,13 @@
 .navbarScroll.navbarDark {
   background-color: rgb(0, 0, 0);
 
+}
 
+.nav-link, .dropdown-item {
+  color: rgb(111, 111, 237) !important;
+}
+.nav-link:hover, .dropdown-item:hover {
+  color: #e01313  !important;
 }
 
 /* hero background image */
@@ -346,47 +352,51 @@ h1 {
   background-color: #e01313 !important;
 }
 
-/* social media icons styling */
+
+/* Contact me section map styling */
+#embedmap-canvas img {
+    max-width: none !important;
+    background: none !important;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+
+/* social media icons styling in footer */
 .social-icons {
   font-size: 36px;
   cursor: pointer;
 }
 
 .fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover, .fa-linkedin:hover, .fa-twitch:hover {
-  color: #008000;
+  color:#aa9ae9 ;
 }
 
-.fab {
-  color: #000000;
+.fa {
+  color: rgb(111, 111, 237);
 }
 
 /* footer styling */
+
+input[type=text] {
+  border: 2px solid red;
+  border-radius: 4px;
+}
+input[type=email] {
+  border: 2px solid red;
+  border-radius: 4px;
+}
+textarea[name=text] {
+  border: 2px solid red;
+  border-radius: 4px;
+}
+
 #footer {
-  background-color: #808080;
+  background-color: #000000;
   text-align: center;
 }
 
 
 
-
-/* .glowIntro{
-  font-family: lobster;
-  font-size: 3.5em;
-  animation-name: glowAnim;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-}
-@keyframes glowAnim {
-    from {
-      text-shadow:  0px 0px 10px rgba(255,255,255,0),
-                    0px 0px 30px rgba(255,255,255,0.3),
-                    0px 0px 50px rgba(255,255,255,0.6),
-                    0px 0px 180px rgba(255,255,255,0.9);
-    	color: #fff;
-    }
-    to {
-      	text-shadow: 0 0 5px rgba(0,5px,5px,1);
-    }
-} */
 
 

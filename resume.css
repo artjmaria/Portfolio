@@ -35,17 +35,17 @@ body {
 
 /* LINK STYLING */
 
-a:link {
-    color: rgb(255, 255, 255);
+a {
+    color: #fff;
     background-color: transparent;
     text-decoration: none;
 }
 
-a:visited {
+/* a:visited {
     color: rgb(223, 208, 123);
     background-color: transparent;
     text-decoration: none;
-}
+} */
 
 a:hover {
     color: red;
